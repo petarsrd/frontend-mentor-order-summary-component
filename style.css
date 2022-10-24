@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat ;
+    background-color: blue;
+    padding: 30px;
+    height: 100vh;
+    padding-top: calc((100vh - 585px) / 2);
+    padding-bottom: calc((100vh - 585px) / 2);
+}
+
+div.main {
+    width: 35%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+div.image {
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+div.main img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+div.main > div.center {
+    padding: 25px 70px;
+    background-color: white;
+}
+
+div.center > h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div.center > p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+div.annual-plan {
+    padding: 15px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+div.annual-plan img {
+    display: inline-block;
+    width: 40px;
+    margin-right: 10px;
+}
+
+div.annual-plan div {
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+div.annual-plan > div > h2 {
+    font-size: 1em;
+}
+
+div.annual-plan a {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+div.proceed {
+    background-color: white;
+    text-align: center;
+    padding: 0 70px;
+    border-radius: 0 0 15px 15px;
+}
+
+div.proceed > a.proc {
+    display: inline-block;
+    width: 100%;
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+div.proceed > a.cancel {
+    display: inline-block;
+    width: 100%;
+    color: gray;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
